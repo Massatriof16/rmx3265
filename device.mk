@@ -68,7 +68,9 @@ PRODUCT_TARGET_VNDK_VERSION := 30
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # A/B
-
+PRODUCT_EXTRA_RECOVERY_KEYS += \
+    $(LOCAL_PATH)/security/releasekey \
+    $(LOCAL_PATH)/security/fsverity-release
 
 
 PRODUCT_PACKAGES += \
