@@ -71,7 +71,6 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     $(LOCAL_PATH)/security/lineage \
-    $(LOCAL_PATH)/security/testkey
 
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
